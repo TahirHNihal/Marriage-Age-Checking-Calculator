@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class 14</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dancing+Script:wght@400;500;600;700&family=Dongle:wght@400;700&family=Noto+Serif+TC:wght@300;400;500;600;700;900&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Satisfy&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- style link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+
+          <div class="form-wraper">
+
+            <div class="form-header"><h2>Check Marriage Age</h2></div>
+
+            <div class="alert">
+            </div>
+            <div class="form-body">
+
+              <form id="age_form">
+
+                <div class="my-3 input-wraper">
+                  <label for="">Your Name</label><br>
+                  <input name="name" type="text" />
+                </div>
+
+                <div class="my-3 input-wraper">
+                  <label for="">Your Age</label><br>
+                  <input name="age" type="text" />
+                </div>
+
+                <div class="my-3 ">
+                  <label for="">Your Gender</label><br />
+                  <label class="genderChk" for=""> <input value="male" name="gender" type="radio" checked />Male </label>
+
+                  <span class="radioCircle"></span>
+
+                  <label class="genderChk" for=""> <input value="female" name="gender" type="radio" />Female </label>
+
+                  <span class="radioCircle"></span>
+                </div>
+
+                <div class="my-3">
+                  <input class="btn subBtn" type="submit">
+                </div>
+
+              </form>
+
+            </div>
+
+            <div class="form-footer">
+              <p id="result"></p>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="app.js"></script>
+    <script src="function.js"></script>
+  </body>
+</html>
